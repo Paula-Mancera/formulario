@@ -10,6 +10,122 @@ nav{
     background:url(../imagenes/fondo\ header.jpg)}
 
 
+   
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+  
+    .contenedor {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    
+      display: flex;
+      gap: 80px;
+    }
+    
+    .titulo {
+      font-size: 24px;
+      padding: 20px 0;
+    }
+    
+    .contenedorpasos{
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+
+
+
+    }
+    
+    .card {
+      border-radius: 10px;
+      min-height: 200px;
+      font-weight: bold;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center center;
+    
+      width: 30% ;
+    }
+    
+    .card .textos {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+    }
+    
+    .banner {
+      border-radius: 60px;
+      text-align: center;
+      padding: 120px;
+      background-size: cover;
+      background-position: center center;
+    
+    
+    }
+    
+    .banner ul {
+      list-style: none;
+    }
+    
+    .banner ul li {
+      margin: 15px;
+      font-weight: bold;
+    }
+    
+    .banner .boton {
+      background: #77a2ff;
+      display: block;
+      width: 100%;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      padding: 10px;
+      border: none;
+      border-radius: 100px;
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+    }
+    
+    @media screen and (max-width: 900px) {
+      
+    }
+    
+    @media screen and (max-width: 700px) {
+      
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+    }
+
+
+.containercard {
+  background:url(../imagenes/fondo\ seccion.jpg) ;
+  background-size:cover;
+  background-attachment:fixed;
+  padding:45px 05px 20px;
+  padding-left: 50px;
+  font-size:15px;
+  line-height:24px;
+ display:flex;
+ gap: 40px;
+
+    }
+
+
+
+
 .site-footer{
       background: url(../imagenes/imagen\ footer.gif);
       background-size:contain;

@@ -93,7 +93,7 @@ if($save){
     <input type="file" name="imgconsentimiento" id="imgconsentimiento"  class="form-control"/>Consentimiento Informado
 </div>
 <div class="col col-lg-4">
-    <input type="text" name="terapia" id="terapia" placeholder="terapia del paciente" class="form-control"/>
+    <input type="text" name="terapia" id="terapia" placeholder="terapeuta del paciente" class="form-control"/>
 </div>
 </div>
 <br>
@@ -120,7 +120,7 @@ if($save){
 
 <div class="row mb-3 col-lg-8">
 <div class="col" style="padding-left: 500px">
-    <input type="file" name="imgexamenes" id="imgexamenes" class="form-control"/>Examenes Medicos
+    <input type="file" name="imgexamenes" id="imgexamenes" class="form-control"/>Audiometria u otros examenes
 </div><br><br>
 </div>
 <div class= "col" style="padding-left: 225px"> 

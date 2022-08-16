@@ -58,7 +58,7 @@
   </nav>
 
 
-<nav class="navbar navbar-expand  navbar-dark bg-dark  text-white mb-5">
+<section class="navbar navbar-expand  navbar-dark bg-dark  text-white mb-5">
     <ul class='navbar-nav'>
 <li class="nav-item">
 <a class="nav-link" href="<?php echo ROOT ?>/informacion-paciente/index.php">Nuestros Usuarios</a>
@@ -69,9 +69,7 @@
     </ul>
 
 
-
-</nav>
-
+</section>
 
 
 
